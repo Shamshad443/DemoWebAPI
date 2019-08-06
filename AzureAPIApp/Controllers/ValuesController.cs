@@ -14,7 +14,7 @@ namespace AzureAPIApp.Controllers
         [SwaggerOperation("GetAll")]
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "value1", "Hi This is ILIYAS" };
         }
 
         //GET api/values/5
